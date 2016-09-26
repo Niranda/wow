@@ -1,0 +1,1 @@
+/run local c,ge,gc,xp,ps,n,_=C_ArtifactUI; _,_,n,_,xp,ps=c.GetEquippedArtifactInfo(); for i=1,ps-1 do xp=xp+c.GetCostForPointAtRank(i);end print("You spend",xp,"artifact power on",n);
